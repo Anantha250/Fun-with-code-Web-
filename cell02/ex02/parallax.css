@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.first {
+    background-image: url('https://i.pinimg.com/originals/ac/96/80/ac9680c31e6962428ea4ea48a9cb2588.jpg'); 
+}
+
+.second {
+    background-image: url('https://i.pinimg.com/originals/8e/14/f0/8e14f08fe65c2c74b8a758a74a8dd1e5.jpg'); 
+}
+
+.overlay {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    z-index: 1;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+}

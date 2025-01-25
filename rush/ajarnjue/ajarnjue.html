@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="ajarnjue.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Linear Project</div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Hamburger Menu -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="team-section" id="team">
+        <h1>Member</h1>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Member 1">
+                <h2>Manatsavin</h2>
+                <p>Member1</p>
+                <p>Louis</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Member 2">
+                <h2>Ananthachai</h2>
+                <p>Member2</p>
+                <p>Beam</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Member 3">
+                <h2>Peerawat</h2>
+                <p>Member3</p>
+                <p>Mark</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Member 4">
+                <h2>Emily</h2>
+                <p>Member4</p>
+                <p>Jeen</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            © 2024 KMITL
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to toggle the hamburger menu
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+
+        hamburger.addEventListener('click', () => {
+            navList.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
